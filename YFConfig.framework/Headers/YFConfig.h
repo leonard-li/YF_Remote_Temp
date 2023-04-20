@@ -16,6 +16,7 @@ FOUNDATION_EXPORT const unsigned char YFConfigVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <YFConfig/PublicHeader.h>
 \
 #import <YFConfig/YFRemoteConfig.h>
+#import <YFConfig/YFABTest.h>
 
-#define YF_CONFIG_VERSION @"1.0.1"
+#define YF_CONFIG_VERSION @"1.1.0"
 
