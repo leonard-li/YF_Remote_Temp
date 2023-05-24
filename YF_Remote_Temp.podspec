@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YF_Remote_Temp"
-  spec.version      = "1.1.1"
+  spec.version      = "1.1.2"
   spec.summary      = "在线参数"
 
   spec.description  = <<-DESC
@@ -24,6 +24,6 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.dependency "YF_DataAcqu", '>= 5.0.2'
+  spec.dependency "YF_DataAcqu", '>= 5.0.5'
 
 end
