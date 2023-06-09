@@ -19,4 +19,5 @@ FOUNDATION_EXPORT const unsigned char YFConfigVersionString[];
 #import <YFConfig/YFABTest.h>
 
 #define YF_CONFIG_VERSION @"1.1.3"
+#define yf_test_config @"test"
 
