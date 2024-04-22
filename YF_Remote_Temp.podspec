@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YF_Remote_Temp"
-  spec.version      = "1.1.7"
+  spec.version      = "1.1.8"
   spec.summary      = "在线参数"
 
   spec.description  = <<-DESC
