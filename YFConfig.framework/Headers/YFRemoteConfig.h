@@ -127,9 +127,15 @@ typedef void (^YFRemoteConfigActivateCompletion)(NSError *_Nullable error);
 /**
  *  @brief 获取配置信息
  *  @param key 对应的key
- *  @note 获取配置的有限顺利，远程配置->Defaults
+ *  @note 获取配置的优先顺序，远程配置->Defaults
  */
 + (nullable id)configValueForKey:(nullable NSString *)key;
+
+/**
+ *  @brief 获取运营参数
+ *  @param key 对应的key
+ */
++ (nullable id)optValueForKey:(nullable NSString *)key;
 
 #pragma mark - Defaults
 /**
