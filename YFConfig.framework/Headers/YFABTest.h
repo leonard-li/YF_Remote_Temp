@@ -55,6 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (id)getABTestWithKey:(NSString *)key withDedault:(id)defaultValue;
 
+- (void)getABTestWithKey:(NSString *)key withDedault:(id)defaultValue completion:(void (^)(id _Nullable result))completionBlock;
+
 - (void)trackWithProperties:(NSDictionary *)properties;
 
 - (ABTestExperiment *)getABTestExperimentWithKey:(NSString *)key withDedault:(id)defaultValue;

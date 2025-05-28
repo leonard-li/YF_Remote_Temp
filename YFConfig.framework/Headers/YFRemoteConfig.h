@@ -95,6 +95,9 @@ typedef void (^YFRemoteConfigActivateCompletion)(NSError *_Nullable error);
 ///获取远程配置后，是否激活
 @property(nonatomic, assign) BOOL activateAfterFetch;
 
+///自定义属性
+@property(nonatomic, strong) NSDictionary *customProps;
+
 @end
 
 /**================================================================**/
